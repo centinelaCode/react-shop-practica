@@ -3,23 +3,19 @@ import '../styles/RecoveryPassword.scss';
 
 const RecoveryPassword = () => {
   return (
-    <div className="login">
-      <div className="form-container">
+    <div className="RecoveryPassword">
+      <div className="RecoveryPassword-container">
         <img src="./logos/logo_yard_sale.svg" alt="logo" className="logo" />
 
-        <h1 className="title">Email has been sent!</h1>
-        <p className="subtitle">Please check your inbox for instructions on how to reset the password</p>
+        <h1 className="title">Password recovery</h1>
+        <p className="subtitle">Información del correo electronico utilizada para crear la cuenta</p>
 
-        <div className="email-image">
-          <img src="./icons/email.svg" alt="email" />
-        </div>
-
-        <button className="primary-button login-button">Login</button>
-
-        <p className="resend">
-          <span>Didn't receive the email?</span>
-          <a href="/">Resend</a>
-        </p>
+        <form action="/" className="form">
+          <label for="email" className="label">Email</label>
+          <input type="email" id="email" className="input input-email" />
+          
+          <input type="submit" value="Confirm" className="primary-button login-button" />
+        </form>
       </div>
     </div>
   )
