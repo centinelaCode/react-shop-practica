@@ -4,7 +4,7 @@ import '../styles/CreateAccount.scss';
 const CreateAccount = () => {
   return (
     <div className="CreateAccount">
-      <div className="form-container">
+      <div className="CreateAccount-container">
         <h1 className="title">My account</h1>
 
         <form action="/" className="form">
