@@ -7,7 +7,7 @@ import Login from '../pages/Login';
 import RecoveryPassword from '../pages/RecoveryPassword';
 import SendEmail from '../pages/SendEmail';
 import NewPassword from '../pages/NewPassword';
-import MyAccount from '../pages/MyAcccount';
+import MyAccount from '../pages/MyAccount';
 import CreateAccount from '../pages/CreateAccount';
 import Checkout from '../pages/Checkout';
 import Orders from '../pages/Orders';
