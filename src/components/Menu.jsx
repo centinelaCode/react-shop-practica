@@ -2,7 +2,21 @@ import React from 'react';
 
 const Menu = () => {
   return (
-    <div>Menu</div>
+    <div class="Menu">
+      <ul>
+        <li>
+          <a href="/" class="title">My orders</a>
+        </li>
+
+        <li>
+          <a href="/">My account</a>
+        </li>
+
+        <li>
+          <a href="/">Sign out</a>
+        </li>
+      </ul>
+    </div>
   )
 }
 
