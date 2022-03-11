@@ -6,7 +6,7 @@ const ProductList = () => {
   return (
     <section className="main-container">
       <div className="ProductList">
-        <ProductList />
+        <ProductItem />
       </div>
     </section>
   )
