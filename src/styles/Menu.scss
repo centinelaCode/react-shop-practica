@@ -9,6 +9,7 @@
   position: absolute;
   top: 65px;
   right:20px;
+  background-color: #fff;
 }
 .Menu ul {
   list-style: none;
@@ -35,4 +36,8 @@
   text-decoration: none;
   margin-bottom: 20px;
   display: inline-block;
+}
+
+.Menu ul li a:hover {
+  text-decoration: underline;
 }
